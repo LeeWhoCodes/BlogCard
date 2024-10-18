@@ -18,6 +18,7 @@ article {
     border-color: black;
     /* box-shadow: 10px 10px black; */
     box-shadow: 0.35rem 0.35rem black;
+    max-width: min-content;
 
 }
 
@@ -54,6 +55,7 @@ h3 {
 .description {
     margin-left: 1rem;
     color: hsl(0, 0%, 42%);
+    text-wrap: wrap;
 }
 
 .profilePic {
@@ -76,4 +78,9 @@ h3 {
     /* need to increase weight */
     font-size: 1.1rem;
     font-weight: 900;
+}
+
+h3:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
