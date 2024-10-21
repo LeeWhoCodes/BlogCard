@@ -64,6 +64,7 @@ h3 {
     color: hsl(0, 0%, 42%);
     font-size: 0.9rem;
     text-wrap: wrap;
+    width: 100%
 }
 
 .profilePic {
